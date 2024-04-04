@@ -63,7 +63,7 @@ public class InstanceServiceImplTest {
         roleMapping.setName("initiator");
         roleMapping.setEndpoint("initiator@uengine.org");
         roleMapping.setResourceName("Initiator");
-        command.setRoleMappings(new RoleMapping[] { roleMapping });
+        // command.setRoleMappings(new RoleMapping[] { roleMapping });
 
         InstanceResource instanceResource = instanceService.start(command);
         String instanceId = instanceResource.getInstanceId();

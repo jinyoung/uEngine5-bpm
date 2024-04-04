@@ -31,7 +31,7 @@ import org.uengine.kernel.RoleMapping;
 public interface InstanceService {
 
         @RequestMapping(value = "/instance", method = { RequestMethod.POST,
-                        RequestMethod.PUT }, produces = "application/json;charset=UTF-8")
+                        RequestMethod.PUT })
         public RepresentationModel start(@RequestBody ProcessExecutionCommand command) throws Exception;
 
         // @RequestMapping(value = "/instance/{instanceId}/start", method =

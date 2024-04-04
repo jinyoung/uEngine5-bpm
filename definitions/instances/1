@@ -4,28 +4,43 @@
     <int>0</int>
   </entry>
   <entry>
-    <string>Task_c:_start_time:prop</string>
+    <string>Task_a:_status:prop</string>
+    <string>Completed</string>
+  </entry>
+  <entry>
+    <string>Task_a:_start_time:prop</string>
     <gregorian-calendar>
-      <time>1711588489591</time>
+      <time>1712213225943</time>
       <timezone>Asia/Seoul</timezone>
     </gregorian-calendar>
   </entry>
   <entry>
-    <string>Task_d:tokenCount:prop</string>
+    <string>Task_b:_status:prop</string>
+    <string>Running</string>
+  </entry>
+  <entry>
+    <string>Task_b:_due date:prop</string>
+    <gregorian-calendar>
+      <time>1712645225944</time>
+      <timezone>Asia/Seoul</timezone>
+    </gregorian-calendar>
+  </entry>
+  <entry>
+    <string>Task_b:tokenCount:prop</string>
     <int>1</int>
   </entry>
   <entry>
-    <string>EndEvent_1:_status:prop</string>
-    <string>Ready</string>
+    <string>Task_b:_loopBackCnt:prop</string>
+    <int>1</int>
   </entry>
   <entry>
-    <string>Task_b:_loopBackCnt:prop</string>
-    <int>2</int>
+    <string>:MESSAGE_event:prop</string>
+    <string>StartEvent_1</string>
   </entry>
   <entry>
     <string>StartEvent_1:_start_time:prop</string>
     <gregorian-calendar>
-      <time>1711588489036</time>
+      <time>1712213225943</time>
       <timezone>Asia/Seoul</timezone>
     </gregorian-calendar>
   </entry>
@@ -36,21 +51,7 @@
   <entry>
     <string>Task_b:_start_time:prop</string>
     <gregorian-calendar>
-      <time>1711588489687</time>
-      <timezone>Asia/Seoul</timezone>
-    </gregorian-calendar>
-  </entry>
-  <entry>
-    <string>Task_b:_end_time:prop</string>
-    <gregorian-calendar>
-      <time>1711588489729</time>
-      <timezone>Asia/Seoul</timezone>
-    </gregorian-calendar>
-  </entry>
-  <entry>
-    <string>EndEvent_1:_start_time:prop</string>
-    <gregorian-calendar>
-      <time>1711588489640</time>
+      <time>1712213225944</time>
       <timezone>Asia/Seoul</timezone>
     </gregorian-calendar>
   </entry>
@@ -78,136 +79,41 @@
   <entry>
     <string>:_due date:prop</string>
     <gregorian-calendar>
-      <time>1712452489016</time>
+      <time>1713077225929</time>
       <timezone>Asia/Seoul</timezone>
     </gregorian-calendar>
-  </entry>
-  <entry>
-    <string>EndEvent_1:_end_time:prop</string>
-    <gregorian-calendar>
-      <time>1711588489640</time>
-      <timezone>Asia/Seoul</timezone>
-    </gregorian-calendar>
-  </entry>
-  <entry>
-    <string>:troubleType</string>
-    <string>hw</string>
-  </entry>
-  <entry>
-    <string>EndEvent_1:tokenCount:prop</string>
-    <int>0</int>
-  </entry>
-  <entry>
-    <string>StartEvent_1:_status:prop</string>
-    <string>Completed</string>
-  </entry>
-  <entry>
-    <string>Task_d:instanceIdOfSubProcess:prop</string>
-    <string>4</string>
-  </entry>
-  <entry>
-    <string>Task_c:_end_time:prop</string>
-    <gregorian-calendar>
-      <time>1711588489636</time>
-      <timezone>Asia/Seoul</timezone>
-    </gregorian-calendar>
-  </entry>
-  <entry>
-    <string>:MESSAGE_Receive:prop</string>
-    <string>Task_c</string>
-  </entry>
-  <entry>
-    <string>Task_a:_status:prop</string>
-    <string>Completed</string>
-  </entry>
-  <entry>
-    <string>Task_b:_status:prop</string>
-    <string>Completed</string>
-  </entry>
-  <entry>
-    <string>Task_a:_start_time:prop</string>
-    <gregorian-calendar>
-      <time>1711588489678</time>
-      <timezone>Asia/Seoul</timezone>
-    </gregorian-calendar>
-  </entry>
-  <entry>
-    <string>Task_c:_status:prop</string>
-    <string>Ready</string>
-  </entry>
-  <entry>
-    <string>Task_b:_due date:prop</string>
-    <gregorian-calendar>
-      <time>1712020489687</time>
-      <timezone>Asia/Seoul</timezone>
-    </gregorian-calendar>
-  </entry>
-  <entry>
-    <string>Task_b:tokenCount:prop</string>
-    <int>0</int>
-  </entry>
-  <entry>
-    <string>Task_d:_status:prop</string>
-    <string>Running</string>
-  </entry>
-  <entry>
-    <string>Task_d:labelsOfSubProcess:prop</string>
-    <string></string>
-  </entry>
-  <entry>
-    <string>:currentStep:prop</string>
-    <int>2</int>
-  </entry>
-  <entry>
-    <string>Task_b:_completed rolemapping:prop</string>
-    <com.defaultcompany.organization.DefaultCompanyRoleMapping reference="../../entry[11]/com.defaultcompany.organization.DefaultCompanyRoleMapping"/>
-  </entry>
-  <entry>
-    <string>:MESSAGE_event:prop</string>
-    <string>StartEvent_1</string>
-  </entry>
-  <entry>
-    <string>:symptom</string>
-    <string>An example error symptom description</string>
   </entry>
   <entry>
     <string>StartEvent_1:_end_time:prop</string>
     <gregorian-calendar>
-      <time>1711588489677</time>
+      <time>1712213225943</time>
       <timezone>Asia/Seoul</timezone>
     </gregorian-calendar>
   </entry>
   <entry>
     <string>Task_a:_end_time:prop</string>
     <gregorian-calendar>
-      <time>1711588489678</time>
+      <time>1712213225944</time>
       <timezone>Asia/Seoul</timezone>
     </gregorian-calendar>
   </entry>
   <entry>
-    <string>:MESSAGE_onHumanActivityResultTask_b:prop</string>
-    <string></string>
+    <string>Task_b:_task id:prop</string>
+    <string>2</string>
   </entry>
   <entry>
-    <string>Task_b:_task id:prop</string>
-    <string>3</string>
+    <string>:MESSAGE_onHumanActivityResultTask_b:prop</string>
+    <string>Task_b</string>
   </entry>
   <entry>
     <string>:_start_time:prop</string>
     <gregorian-calendar>
-      <time>1711588489016</time>
+      <time>1712213225929</time>
       <timezone>Asia/Seoul</timezone>
     </gregorian-calendar>
   </entry>
   <entry>
-    <string>Task_d:_start_time:prop</string>
-    <gregorian-calendar>
-      <time>1711588489730</time>
-      <timezone>Asia/Seoul</timezone>
-    </gregorian-calendar>
-  </entry>
-  <entry>
-    <string>Task_c:tokenCount:prop</string>
-    <int>0</int>
+    <string>StartEvent_1:_status:prop</string>
+    <string>Completed</string>
   </entry>
 </map>
